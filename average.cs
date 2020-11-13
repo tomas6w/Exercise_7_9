@@ -1,4 +1,5 @@
 using System;
+
 public class Average //This program calculates the average of a set of marks, until the user types “end”.
 {
 	public static void Main()
