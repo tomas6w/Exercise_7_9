@@ -10,11 +10,10 @@ class digits
         int oneDigit = 0, twoDigits = 0, threeDigits = 0, overThreeDigits = 0;
 
         Console.Write("Insert a number: ");
-        string numberString = Console.ReadLine(); // read the number as string to check the word "end"
+        string numberString = Console.ReadLine();
 
         while (numberString != "end")
         {
-            // if the number isn't an 'end' then we pass it to int to work with it
             int number = Convert.ToInt32(numberString); 
             if (number != 0)
             {
