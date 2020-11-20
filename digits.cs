@@ -7,7 +7,7 @@ class digits
 {
     static void Main()
     {
-        int oneDigit = 0, twoDigits = 0, threeDigits = 0, aboveThreeDigits = 0;
+        int oneDigit = 0, twoDigits = 0, threeDigits = 0, overThreeDigits = 0;
 
         Console.Write("Insert a number: ");
         string numberString = Console.ReadLine(); // read the number as string to check the word "end"
@@ -28,7 +28,7 @@ class digits
                     threeDigits++;
 
                 else
-                    aboveThreeDigits++;
+                    overThreeDigits++;
             }
             Console.Write("Insert a number: ");
             numberString = Console.ReadLine();
@@ -36,7 +36,7 @@ class digits
 
         Console.WriteLine();
         Console.WriteLine("One digit: {0}, Two digits: {1}, Three digits: {2}, More than three digits: {3}",
-            oneDigit, twoDigits, threeDigits, aboveThreeDigits);
+            oneDigit, twoDigits, threeDigits, overThreeDigits);
     }
 }
 
