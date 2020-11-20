@@ -8,10 +8,10 @@ public class Average //This program calculates the average of a set of marks, un
 		string mark; 
 
 		Console.Write("Insert a mark: ");
-		mark = Console.ReadLine(); // we read the mark as string to check the word "end"
+		mark = Console.ReadLine();
 
 		while (mark != "end")
-		{  // if the mark isn't an end then we pass it to double to work with it
+		{  
 			markDouble = Convert.ToDouble(mark);
 			counter++;
 			accumulatedMark += markDouble;
